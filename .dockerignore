@@ -1,0 +1,28 @@
+# Ignore target directory
+target/
+
+# Ignore IDE-specific files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Maven generated files
+dependency-reduced-pom.xml
+dependency-reduced-pom.xml.asc
+RELEASE-NOTES.txt
+maven-archiver/
+maven-status/
+
+# Ignore test files
+src/test/
+
+# Ignore editor backup files
+*~
+
+# Ignore miscellaneous files
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
